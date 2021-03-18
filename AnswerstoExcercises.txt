@@ -1,0 +1,18 @@
+/* Answers to Questions from Excercises 1,2,3 from Lab1 Class Activity */ 
+#Clarizza Morales
+#ECE 330 - Software Design
+#Class Actitivty_Lab1_Answers
+
+
+***** Excercise #2 *****
+1. Whenever we replace "const MyClass ccc=ccc" with "MyClass ccc" it prints "foo" again, basically calling the function ccc.Foo() and returning the value
+//const MyClass ccc; gives 'foo const'.
+
+2. constant member functions cannot be modified and can only call constant member functions. We call a constant member function as follows: 'const className objectName', e.g: 'const MyClass ccc'.
+
+3. We can remove "std::" from the code by calling "using namespace std;". In this way we avoid having to write 'std::' everytime we need to use a cin, cout, string, endl command, etc.
+
+
+****** Excercise #2 *****
+1. The difference between getline and cout is that getline() is a function that usually takes two parameters as inputs. It waits for the input and appends it to the string object. After the input is read, then it is stored in the string object. On the other hand, cout prints the output we give it to print. In this case, we gave a value to s, that value was stored in s, then cout just outputed that value back to the stream.
+
